@@ -1,6 +1,6 @@
 import path from 'path';
 
-module.exports = {
+export default {
   entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -16,7 +16,10 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env']
+            presets: [
+              '@babel/env',
+              '@babel/preset-react'
+            ]
           }
         }
       }
