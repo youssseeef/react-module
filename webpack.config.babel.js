@@ -25,7 +25,5 @@ export default {
       }
     ]
   },
-  externals: {
-    'react': 'commonjs react' 
-  }
+  externals: ['react', 'react-dom']
 };
