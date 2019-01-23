@@ -1,6 +1,7 @@
 import path from 'path';
 
 export default {
+  mode: 'production',
   entry: './components/index.js',
   output: {
     path: __dirname,
