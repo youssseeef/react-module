@@ -26,6 +26,6 @@ function onProductClick() {
 export default ({ isAuthenticated }) => (
   <GlobalNavigation
     productIcon={MdDirectionsBus}
-    productTooltip='Scenario Bus'
+    productHref='/'
   />
 );
