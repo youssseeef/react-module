@@ -21,7 +21,8 @@ export default {
               '@babel/preset-react'
             ],
             plugins: [
-              ["babel-plugin-styled-components"],
+              ["@babel/transform-runtime"],
+              ["babel-plugin-styled-components"]
             ]
           }
         }
