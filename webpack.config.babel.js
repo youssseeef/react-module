@@ -2,7 +2,7 @@ import path from 'path';
 import TerserPlugin from 'terser-webpack-plugin';
 
 export default {
-  entry: './src/index.js',
+  entry: './components/index.js',
   output: {
     path: __dirname,
     filename: 'index.js',
@@ -12,7 +12,7 @@ export default {
     rules: [
       {
         test: /\.js/,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'components'),
         exclude: /(node_modules|bower_components|build)/,
         use: {
           loader: 'babel-loader',
