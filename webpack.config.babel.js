@@ -1,9 +1,9 @@
 import path from 'path';
 
 export default {
-  entry: './index.js',
+  entry: './components/index.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: __dirname,
     filename: 'index.js',
     libraryTarget: 'commonjs2'
   },
