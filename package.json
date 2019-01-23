@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/jim-king-2000/react-module#readme",
   "dependencies": {
-    "@atlaskit/dropdown-menu": "^6.1.26",
     "@atlaskit/global-navigation": "^5.5.3",
     "next": "^7.0.2",
     "react": "^16.7.0",
