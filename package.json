@@ -1,5 +1,5 @@
 {
-  "name": "react-module",
+  "name": "scenario-bus-fe-common",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jim-king-2000/react-module.git"
+    "url": "git+https://gitlab.com/scenario-bus/scenario-bus-fe-common.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jim-king-2000/react-module/issues"
+    "url": "https://gitlab.com/scenario-bus/scenario-bus-fe-common/issues"
   },
-  "homepage": "https://github.com/jim-king-2000/react-module#readme",
+  "homepage": "https://gitlab.com/scenario-bus/scenario-bus-fe-common#readme",
   "dependencies": {
     "@atlaskit/dropdown-menu": "^6.1.26",
     "@atlaskit/global-navigation": "^5.5.3",
