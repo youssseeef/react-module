@@ -27,7 +27,5 @@ export default ({ isAuthenticated }) => (
   <GlobalNavigation
     productIcon={MdDirectionsBus}
     productTooltip='Scenario Bus'
-    onProductClick={onProductClick}
-    profileItems={isAuthenticated ? LogoutDropdown : LoginDropdown}
   />
 );
