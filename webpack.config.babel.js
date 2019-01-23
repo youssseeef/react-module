@@ -19,6 +19,9 @@ export default {
             presets: [
               '@babel/env',
               '@babel/preset-react'
+            ],
+            plugins: [
+              ["babel-plugin-styled-components"],
             ]
           }
         }
