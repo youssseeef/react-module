@@ -1,3 +1,4 @@
-export * from './hoc/AuthWrapper';
-export * from './fe-components/FieldInlineEdit';
-export * from './fe-components/NavBar';
+import React from 'react';
+import Router from 'next/router';
+
+export const B = () => <Button onClick={() => Router.push('/')} />;
