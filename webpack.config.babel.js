@@ -17,8 +17,7 @@ export default {
           loader: 'babel-loader',
           options: {
             presets: [
-              '@babel/env',
-              '@babel/preset-react'
+              "next/babel"
             ],
             plugins: [
               ["@babel/transform-runtime"],
