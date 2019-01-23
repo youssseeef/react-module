@@ -28,5 +28,5 @@ export default {
       }
     ]
   },
-  externals: ['react', 'react-dom', 'styled-components']
+  externals: ['next', 'react', 'react-dom', 'styled-components']
 };
