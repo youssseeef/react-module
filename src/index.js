@@ -1,6 +1,6 @@
 import React from 'react';
 const Router = null;
-if (window) {
+if (typeof window !== 'undefined') {
     import('next/router').then((Router) => {
         Router = Router;
     });
