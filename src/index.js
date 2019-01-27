@@ -1,8 +1,9 @@
 import React from 'react';
 const Router = null;
-if (typeof window !== 'undefined') {
-    import('next/router').then((Router) => {
-        Router = Router;
+const isBrowser = typeof window !== 'undefined';
+if (isBrowser) {
+    import('next/router').then((nextRouter) => {
+        Router = nextRouter;
     });
 }
 
