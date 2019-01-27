@@ -1,8 +1,15 @@
 import React from 'react';
-import Router from 'next/router';
-
-export const B = () => {
-    console.log('test');
-    const isClient = process.browser;
-    return (<button onClick={() => isClient && Router.push('/')}>click</button>);
+const Router = null;
+if (process.browser) {
+    import('next/router').then((Router) => {
+        Router = Router;
+    });
 }
+
+class B extends React.Component {
+    render() {
+        return (<button onClick={() => Router && Router.push('/')}>click</button>);
+    }
+}
+export default B;
+
