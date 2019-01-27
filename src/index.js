@@ -1,6 +1,6 @@
 import React from 'react';
 const Router = null;
-if (process.browser) {
+if (window) {
     import('next/router').then((Router) => {
         Router = Router;
     });
